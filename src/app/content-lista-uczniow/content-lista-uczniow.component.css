@@ -1,0 +1,21 @@
+.lista_uczniow{
+  display: flex;
+  flex: 1 1 0;
+  background-color: cadetblue;
+  width: 100%;
+}
+table{
+  width: 100%;
+}
+tr{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+th{
+
+  flex-grow: 1;
+}
+td{
+  flex-grow: 1;
+}

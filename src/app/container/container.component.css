@@ -1,0 +1,25 @@
+.app-container{
+  display: block;
+  padding: 12px 12px 12px 12px;
+  border: 1px solid black;
+
+  align-items: stretch;
+
+
+
+}
+
+.router_items{
+  border: 1px solid #8DA9C4;
+  background-color: #E2EBE8;
+  padding: 2px 4px;
+
+  height: 100%;
+  width: 68.8%;
+  display: inline-block;
+  vertical-align: top;
+
+
+
+}
+

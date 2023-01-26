@@ -1,0 +1,42 @@
+.navigator{
+  background-color: gray;
+  text-align: center;
+
+  width: 30%;
+  height: 100%;
+  border: 1px solid #050f1a;
+  display: inline-block;
+
+}
+.navigator-button{
+  margin: 10px 4px;
+  width: 90%;
+  color: black;
+  border: 1px solid #050f1a;
+  padding: 2px 4px;
+  text-align: center;
+  background-color: gray;
+
+  transition: all 1s ease;
+}
+.navigator-button:hover{
+  color: mediumspringgreen;
+}
+.navigator-button:active{
+  color: peru;
+  background-color: midnightblue;
+}
+.logo{
+  background-color: midnightblue;
+  color: whitesmoke;
+  padding: 2px 2px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+.email{
+  background-color: #8DA9C4;
+  padding: 2px 2px;
+  text-align: center;
+
+}
