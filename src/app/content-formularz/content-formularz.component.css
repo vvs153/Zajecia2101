@@ -1,0 +1,65 @@
+.formularz{
+  padding: 12px 8px 4px 8px;
+
+}
+.tytul{
+  font-size: 1.3em;
+}
+.pola-formularza{
+padding: 12px 16px 4px 16px;
+  display: flex;
+  flex-direction: column;
+
+}
+.pole{
+  display: flex;
+  padding-bottom: 6px;
+  flex-direction: row;
+}
+.pole label{
+  min-width: 150px;
+}
+.pole input{
+  min-width: 40%;
+}
+.guziki-formularza{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.guziki-formularza div{
+  width: 50%;
+
+}
+.guziki-formularza div button{
+  width: 50%;
+}
+.guzik-reset-kontener{
+  display: flex;
+  flex-direction: row;
+}
+.guzik-submit-konenter{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.guzik-reset{
+  transition: all 1s ease;
+}
+.guzik-submit{
+  transition: all 1s ease;
+  align-self: end;
+}
+.guzik-submit:hover{
+  color: seagreen;
+}
+.guzik-submit:active{
+  color: peru;
+  background-color: midnightblue;
+}
+.guzik-reset:hover{
+  color: orangered;
+}
+.guzik-reset:active{
+  color: peru;
+  background-color: midnightblue;
+}

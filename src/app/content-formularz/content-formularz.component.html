@@ -1,3 +1,29 @@
 <div class="formularz">
-  <p>Formularz</p>
+  <div class="tytul">
+    Formularz studenta
+  </div>
+  <div class="pola-formularza">
+    <div class="pole">
+      <label>Imie:</label>
+      <input type="text" placeholder="Podaj imie" [(ngModel)]="dodawanyStudent.imie">
+    </div>
+    <div class="pole">
+      <label>Nazwisko:</label>
+      <input type="text" placeholder="Podaj Nazwisko" [(ngModel)]="dodawanyStudent.nazwisko">
+    </div>
+    <div class="pole">
+      <label>Data urodzenia:</label>
+      <input type="date" [(ngModel)]="dodawanyStudent.dataUrodzenia">
+    </div>
+  </div>
+  <div class="guziki-formularza">
+    <div class="guzik-reset-kontener">
+    <button class="guzik-reset" (click)="wyczyscFormularz()">
+      Wyczysc</button>
+    </div>
+    <div class="guzik-submit-konenter">
+    <button class="guzik-submit"(click)="dodajStudentaDoSerwisu()">
+      Wyslij</button>
+      </div>
+  </div>
 </div>

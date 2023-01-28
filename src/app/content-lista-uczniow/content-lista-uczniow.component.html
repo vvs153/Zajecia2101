@@ -1,25 +1,23 @@
 <div class="lista_uczniow">
-  <table>
-    <!--  HEAD  -->
-    <thead>
-    <tr> <!--table row - wiersz tabeli-->
-      <th>Lp.</th>
-      <th>Imie</th>
-      <th>Nazwisko</th>
-      <th>Data urodzenia</th>
-    </tr>
-    </thead>
-    <!--  BODY  -->
-    <!--  BODY  -->
-    <!--  BODY  -->
-    <tbody>
-    <tr *ngFor="let student of studentList">
-      <td>{{student.lp}}</td>
-      <td>{{student.imie}}</td>
-      <td>{{student.nazwisko}}</td>
-      <td>{{student.dataUrodzenia}}</td>
-    </tr>
-    </tbody>
-  </table>
+<div class="container">
+  <div class="naglowek">
+    <div class="col-1">Id</div>
+    <div class="col-2">Imie</div>
+    <div class="col-3">Nazwisko</div>
+    <div class="col-3">Data ur.</div>
+    <div class="col-3"></div>
+  </div>
+  <div class="row" *ngFor="let student of studentService.studentList">
+    <div class="col-1">{{student.id}}</div>
+    <div class="col-2">{{student.imie}}</div>
+    <div class="col-3">{{student.nazwisko}}</div>
+    <div class="col-3">{{student.dataUrodzenia}}</div>
+    <div class="col-3">
+      <button class="btn btn-primary" (click)="usunStudenta(student.id)">
+        Usun
+      </button>
+    </div>
+  </div>
+</div>
 </div>
 

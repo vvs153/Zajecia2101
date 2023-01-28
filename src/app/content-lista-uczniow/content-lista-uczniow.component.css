@@ -4,18 +4,9 @@
   background-color: cadetblue;
   width: 100%;
 }
-table{
-  width: 100%;
-}
-tr{
+.naglowek{
   display: flex;
-  flex-direction: row;
-  flex-grow: 1;
-}
-th{
-
-  flex-grow: 1;
-}
-td{
-  flex-grow: 1;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+  padding: 2px 1px 4px 1px;
 }
